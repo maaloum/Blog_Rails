@@ -1,7 +1,7 @@
 require 'rails_helper'
 
-RSpec.describe "Posts", type: :request do
-  describe "GET /index" do
+RSpec.describe 'Posts', type: :request do
+  describe 'GET /index' do
     before :each do
       get '/users/:user_id/posts/'
     end
@@ -15,7 +15,7 @@ RSpec.describe "Posts", type: :request do
       expect(response.body).to include('This is the list of all POSTS.')
     end
   end
-  
+
   describe 'GET /show' do
     before :each do
       get '/users/:user_id/posts/:id'
@@ -30,7 +30,7 @@ RSpec.describe "Posts", type: :request do
     end
 
     it 'should include correct placeholder' do
-      expect(response.body).to include("Find me in app/views/posts/show.html.erb")
+      expect(response.body).to include('Find me in app/views/posts/show.html.erb')
     end
   end
 end

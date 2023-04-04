@@ -1,6 +1,6 @@
 require 'rails_helper'
 
-RSpec.describe "Users", type: :request do
+RSpec.describe 'Users', type: :request do
   it 'should render index' do
     get '/'
     expect(response).to render_template(:index)
@@ -30,7 +30,7 @@ RSpec.describe "Users", type: :request do
     end
 
     it 'should include correct placeholder' do
-      expect(response.body).to include("Find me in app/views/users/show.html.erb")
+      expect(response.body).to include('Find me in app/views/users/show.html.erb')
     end
   end
 end

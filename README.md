@@ -62,25 +62,31 @@ To get a local copy up and running follow these simple example steps.
 In order to run this project you need:
 
 - Install ruby on your computer or run in with docker
-- Run `ruby main`
+- Install raiks on your computer or run in with docker
 
 ### Setup
 
 Clone this repository by using the command line :
 
-- `git clone https://github.com/maaloum/BlogApp.git`
+- `git clone https://github.com/maaloum/Blog_Rails.git`
 
 ### Install
 
 Install this project with:
 
-`npm gemfile`
+`bundle`
 
 ### Usage
 
 To run the project, execute the following command:
 
-`ruby main`
+`rails start`
+
+### Test
+
+to run the test, exucute the following command :
+
+`rspec spec`
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

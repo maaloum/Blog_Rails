@@ -21,4 +21,10 @@ class PostsController < ApplicationController
       flash.now[:error] = 'Error: Post could not be saved'
       render :new
     end
+
+    private
+
+    def post_params
+      params.require(:post).permit(:title, :text)
+    end
 end

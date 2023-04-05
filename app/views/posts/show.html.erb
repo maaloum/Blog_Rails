@@ -1,2 +1,17 @@
+<% content_for :title, "#{@user.name} | #{@post.title}" %>
 <h1>Posts#show</h1>
-<p>Find me in app/views/posts/show.html.erb</p>
+<section class="post-comments">
+  <section class="post">
+    <%= render "post", post: @post %>
+  </section>
+  <div class="user-post-comments">
+    <% @post.comments.each do |comment| %>
+      <div class="post-comment">
+        <p>
+          <span><strong><%= comment.author.name %>:</strong></span>
+          <span><%= comment.text %></span>
+        </p>
+      </div>
+    <% end %>
+  <div>
+</section>

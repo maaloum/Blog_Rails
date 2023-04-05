@@ -121,3 +121,117 @@ body{
     border-radius: 5px;
     gap: 15px;
 }
+
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+  
+  .main-container a,
+  .user-posts-container a {
+    text-decoration: none;
+  }
+  
+  .user {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .user-image {
+    width: 20%;
+    border: 2px solid rgb(184, 161, 161);
+  }
+  
+  .user-info {
+    border: 2px solid rgb(184, 161, 161);
+    width: 80%;
+    padding: 10px 15px;
+    text-decoration: none;
+  }
+  
+  .count {
+    display: block;
+    padding-right: 30px;
+    text-align: right;
+  }
+  
+  .users-container {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 10px 15px;
+  }
+  
+  .bio,
+  .user-post,
+  .user-post-comments {
+    border: 2px solid rgb(184, 161, 161);
+    padding: 10px 15px;
+  }
+  
+  .bio p {
+    font-weight: 500;
+  }
+  
+  .text-right {
+    text-align: right;
+  }
+  
+  .green-text {
+    color: green;
+  }
+  
+  .button-center {
+    text-align: center;
+    padding: 30px;
+  }
+  
+  .see-all-posts {
+    padding: 15px 30px;
+  }
+  
+  .users-post-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .users-post,
+  .text-right {
+    text-decoration: none;
+    margin-bottom: 10px;
+  }
+  
+  .post-container,
+  .user-posts-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .user-posts-container {
+    gap: 35px;
+  }
+  
+  .posts-container > * {
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .post-comments,
+  .post-details {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-top: 30px;
+  }
+  
+  .user-post-comments {
+    gap: 5px;
+  }

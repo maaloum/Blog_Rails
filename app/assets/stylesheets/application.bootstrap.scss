@@ -1,0 +1,9 @@
+@import "bootstrap";
+@import 'bootstrap/scss/bootstrap';
+@import 'bootstrap-icons/font/bootstrap-icons';
+
+// Custom bootstrap variables must be set or imported *before* bootstrap.
+
+body{
+    background-color: #ce3939;
+}

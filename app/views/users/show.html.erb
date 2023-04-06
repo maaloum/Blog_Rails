@@ -14,7 +14,7 @@
 </div>
 <div class='posts'>
        <div class= 'post_section'>
-             <% @posts.each do |post| %>
+             <% @user.three_most_recent_posts.each do |post| %>
             <div class = 'each_post'>
                 <div class = 'post'>
                     <p>Post#<%= post.id %> </p>

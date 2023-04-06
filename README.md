@@ -74,7 +74,7 @@ Clone this repository by using the command line :
 
 Install this project with:
 
-`bundle`
+`bundle install`
 
 ### Usage
 

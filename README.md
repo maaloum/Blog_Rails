@@ -100,6 +100,11 @@ to run the test, exucute the following command :
 - Twitter: [@twitterhandle](https://twitter.com/maaloum)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/maaloum/)
 
+👤 **Harshita Jain**
+
+- GitHub: [@harshita](https://github.com/harshitajain06/)
+- LinkedIn: [@harshita](https://www.linkedin.com/in/harshitajain06/)
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

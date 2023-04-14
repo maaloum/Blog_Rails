@@ -4,10 +4,9 @@
 
 body {
   background-color: #e5e5e5;
- 
 }
 
-.sign_up{
+.sign_up {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -15,7 +14,7 @@ body {
   flex-direction: column;
 }
 
-.sign_up h2{
+.sign_up h2 {
   font-size: 30px;
   font-weight: bold;
   margin: 0;
@@ -30,6 +29,7 @@ body {
   margin: 10px;
   border-radius: 5px;
 }
+
 .new_user .field {
   margin-bottom: 10px;
 }
@@ -40,7 +40,8 @@ body {
   border-radius: 5px;
   border: 1px solid #758ce2;
 }
-.new_user .field input:focus{
+
+.new_user .field input:focus {
   outline: none;
   border: 1px solid #758ce2;
 }
@@ -57,7 +58,8 @@ body {
   cursor: pointer;
   text-decoration: none;
 }
-.sign_up a{
+
+.sign_up a {
   text-decoration: none;
   color: #758ce2;
   font-size: 15px;
@@ -65,7 +67,7 @@ body {
   margin-top: 10px;
 }
 
-.sign_in{
+.sign_in {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -78,11 +80,8 @@ body {
   color: #758ce2;
   font-size: 15px;
   font-weight: bold;
-
   margin-top: 10px;
 }
-
-
 
 .users {
   background-color: #fff;

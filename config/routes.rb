@@ -1,4 +1,7 @@
 Rails.application.routes.draw do
+  namespace :api do
+    get 'v1/posts'
+  end
   devise_for :users
 
     # resources :users

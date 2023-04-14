@@ -1,7 +1,6 @@
 class Api::V1::UsersController < Api::V1::ApplicationController
   def index
     authors = User.all.order(:id)
-    json_response(authors)
   end
 
   def show
